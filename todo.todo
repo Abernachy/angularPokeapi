@@ -1,0 +1,8 @@
+Main Page: 
+[] Create the GET Request for the Pokemon API and ensure it retrieves data
+[] Create a copy of the data that has a mutated third property representing a picture address that goes to the the pokemon's website:
+            ("https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" for a picture of bulbasaur)
+
+Pokemon Details Page:
+[] Create the dynamic page that will take in the pokedex ID and will use that with the get requet ( /main/pokemon/001  => returns the bulbasaur object)
+[]  Figure out what data you want to model and go from there

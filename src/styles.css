@@ -1,1 +1,76 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  /* color variables for main colors*/
+  --primaryColor: #a63860;
+  --secondaryColor: #091b26;
+  --primaryForeColor: #3b7d8c;
+  --secondaryForeColor: #a67b2d;
+  --primaryBackgroundColor: #a66226;
+}
+html,
+body {
+  font-family: Roboto, Oxygen, sans-serif;
+  height: 100%;
+  font-size: 10px;
+}
+a {
+  color: inhert;
+  text-decoration: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primaryBackgroundColor);
+}
+
+p {
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 7rem;
+}
+h2 {
+  font-size: 5rem;
+}
+
+primary {
+  color: var(--primaryColor);
+}
+
+.button-fancy-primary {
+  fill: var(--primaryColor);
+  color: var(--primaryForeColor);
+  border-radius: 15%;
+  text-align: center;
+}
+
+.body-container {
+  box-shadow: 1rem 0.5rem 0.5rem black;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 3rem;
+  margin-inline: auto;
+  max-width: 90%;
+}
+
+.line-divider {
+  border: solid 0.5rem var(--secondaryColor);
+  background-color: var(--secondaryColor);
+  margin-bottom: 1.5rem;
+}
+
+.wrapper {
+  max-width: 90%;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
