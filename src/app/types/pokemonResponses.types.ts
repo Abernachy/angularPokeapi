@@ -1,6 +1,6 @@
 export interface PkmnResInterface {
-  pokedexID?: number;
+  pokedexID: string;
   name: string;
   url: string;
-  image?: string;
+  image: string;
 }

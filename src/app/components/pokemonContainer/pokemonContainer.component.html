@@ -1,0 +1,18 @@
+<section>
+  STUFF IS HERE AND IT GOES HERE AND STUFF
+  <div class="flex-container">
+    <ul class="flex-container">
+      @for (item of mockData; track item) {
+      <li>
+        <app-pokemonApp-pokemonCard
+          [image]="item.image"
+          [name]="item.name"
+          [pokedexID]="item.pokedexID"
+          [url]="item.url"
+        />
+      </li>
+
+      }
+    </ul>
+  </div>
+</section>
